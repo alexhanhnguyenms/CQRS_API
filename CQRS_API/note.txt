@@ -1,0 +1,10 @@
+﻿Install-Package Microsoft.EntityFrameworkCore
+Install-Package Microsoft.EntityFrameworkCore.Tools
+Install-Package Microsoft.EntityFrameworkCore.Relational
+Install-Package Microsoft.EntityFrameworkCore.SqlServer
+Install-Package MediatR
+Install-Package MediatR.Extensions.Microsoft.DependencyInjection
+Install-Package Swashbuckle.AspNetCore
+Install-Package Swashbuckle.AspNetCore.Swagger
+add-migration "initial"
+update-database
